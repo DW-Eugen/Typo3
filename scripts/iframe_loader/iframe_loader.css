@@ -1,0 +1,27 @@
+/* iframe loader */
+
+.iframe-loader {
+    padding: 1.25rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+.iframe-loader > * {
+    display: block;
+}
+
+.iframe-button {
+    border: 0 none transparent;
+    cursor: pointer;
+  
+    padding: .5rem 1rem;
+    margin-top: .5rem;
+    border-radius: .25rem;
+  
+    background-color: #fff;
+    color: #333;
+}
+
+.iframe-button:hover {
+    background-color: #333;
+    color: #fff;
+}
